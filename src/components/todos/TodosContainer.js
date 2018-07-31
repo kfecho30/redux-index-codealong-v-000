@@ -10,4 +10,4 @@ class TodosContainer extends Component {
  }
 };
 
-export default connect()(TodosContainer);
+export default connect(mapStateToProps)(TodosContainer);
